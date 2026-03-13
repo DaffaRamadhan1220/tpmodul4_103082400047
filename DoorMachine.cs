@@ -17,7 +17,7 @@ namespace tpmodul4_103082400047
             Console.WriteLine("Pintu terkunci");
         }
 
-        // PERBAIKAN: Ganti nama method jadi 'BukaKunci' (sesuai Program.cs)
+        
         public void BukaKunci()
         {
             if (currentState == State.Terkunci)
