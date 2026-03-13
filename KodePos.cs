@@ -23,7 +23,6 @@ namespace tpmodul4_103082400047
         {"Samoja", 40273}
     };
 
-        // PERBAIKAN: Ganti nama method jadi 'GetKodePos' (huruf besar 'G')
         public int? GetKodePos(string kelurahan)
         {
             if (tabelKodePos.ContainsKey(kelurahan))
