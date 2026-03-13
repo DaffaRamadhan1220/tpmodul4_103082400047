@@ -5,9 +5,9 @@ namespace tpmodul3_NIM
 {
     internal class Program
     {
-        static void Main(string[] args)  // ← Perbaiki ini!
+        static void Main(string[] args)  
         {
-            // Demo Table-Driven untuk Kode Pos
+            
             Console.WriteLine("=== DEMO TABLE-DRIVEN (KODE POS) ===\n");
 
             KodePos kodePos = new KodePos();
@@ -27,19 +27,19 @@ namespace tpmodul3_NIM
             Console.ReadKey();
             Console.Clear();
 
-            // ========== TAMBAHKAN KODE DOORMACHINE DI SINI ==========
+            
             Console.WriteLine("=== DEMO STATE-BASED (DOOR MACHINE) ===\n");
 
-            DoorMachine pintu = new DoorMachine(); // State awal: Terkunci
+            DoorMachine pintu = new DoorMachine(); 
 
             Console.WriteLine("\nMembuka kunci pintu...");
-            pintu.BukaKunci(); // Output: "Pintu tidak terkunci"
+            pintu.BukaKunci(); 
 
             Console.WriteLine("\nMengunci pintu...");
-            pintu.KunciPintu(); // Output: "Pintu terkunci"
+            pintu.KunciPintu(); 
 
             Console.WriteLine("\nMembuka kunci lagi...");
-            pintu.BukaKunci(); // Output: "Pintu tidak terkunci"
+            pintu.BukaKunci(); 
 
             Console.WriteLine("\nSimulasi selesai.");
             Console.ReadKey();
